@@ -1,4 +1,4 @@
-# Automatic AI integrated student attendance inspector
+# An anonymous chatting platform inside Telegram application.
 ##########################################################
 
 # Description
