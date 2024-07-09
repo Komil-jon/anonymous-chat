@@ -39,6 +39,9 @@ def handle_webhook():
         print('error was:', e, json.loads(request.get_data()))
         return '-1'
 
+@app.route('/activate', methods=['GET'])
+def activate():
+    return "Activation successful!", 200
 
 def initial(user_id, first_name, text, user):
     t = {
